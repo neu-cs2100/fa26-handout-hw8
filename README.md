@@ -7,7 +7,7 @@
 In this homework assignment, you will practice:
 
 - Sorting and filtering data
-- Scaling and normalizing data
+- Scaling data
 - Using argsort
 - Joining dataframes
 
