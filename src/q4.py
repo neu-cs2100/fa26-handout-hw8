@@ -8,6 +8,12 @@ author_count_scaled and days_to_retraction_scaled, respectively. The new DataFra
 sorted by author_count_scaled in descending order, with ties broken by days_to_retraction_scaled,
 in descending order. Don't forget to reset the index when sorting the DataFrame.
 
+You can refer to 
+https://neu-pdi.github.io/cs2100-public-resources/lecture-notes/l19-design-data1
+/#scaling-and-normalizing-data
+for information on scaling data. You do not need to consider the case where all values are equal
+(so the min and max are the same, making the denominator zero).
+
 Don't forget to write tests in the tests directory. We recommend making a small Pandas DataFrame
 and passing it to the function being tested, rather than relying on the full dataset. We also
 recommend checking just the specified columns in the resulting DataFrame, rather than checking
